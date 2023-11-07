@@ -1,0 +1,44 @@
+// NavBar.scss
+.navbar {
+  background-color: transparent;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+
+  .navbar-container {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+
+    .navbar-logo {
+      font-size: 24px;
+      font-weight: bold;
+      text-decoration: none;
+      color: #333;
+    }
+
+    .nav-menu {
+      list-style: none;
+      display: flex;
+
+      .nav-item {
+        margin-right: 15px;
+
+        .nav-link {
+          text-decoration: none;
+          color: #333;
+          transition: color 0.3s ease;
+
+          &:hover {
+            color: #555;
+          }
+        }
+      }
+    }
+  }
+}
