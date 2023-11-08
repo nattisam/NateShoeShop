@@ -21,27 +21,6 @@
     font-size: 20px;
   }
   
-  #textblock-footer {
-    color: #ffaf1b;
-    font-size: 15px;
-    font-weight: 400;
-    position: fixed;
-    width: 100%;
-    bottom: 0px;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-    margin-bottom: 20px;
-  
-  }
-  
-  #textblock-devsense {
-    text-decoration: none;
-    color: #ffaf1b;
-    font-size: 15px;
-    font-weight: 600;
-  }
-  
   .animation, .animation_layer {
       height: 1000px;
   }
@@ -49,7 +28,6 @@
   .animation {
     display: block;
       position: relative;
-      z-index: 10;
   }
   
   .animation_layer {
@@ -77,6 +55,11 @@
   
   #jungle2 {
     background-image: url(./images/jungle2.png);
+  }
+
+  #nike {
+    background-image: url(./images/nike1.png);
+    transform: scale(0.2);
   }
   
   #jungle3 {

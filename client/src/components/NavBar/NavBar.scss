@@ -19,7 +19,7 @@
       font-size: 24px;
       font-weight: bold;
       text-decoration: none;
-      color: #333;
+      color: white
     }
 
     .nav-menu {
@@ -27,11 +27,11 @@
       display: flex;
 
       .nav-item {
-        margin-right: 15px;
+        margin-left: 50px;
 
         .nav-link {
           text-decoration: none;
-          color: #333;
+          color: white;
           transition: color 0.3s ease;
 
           &:hover {
