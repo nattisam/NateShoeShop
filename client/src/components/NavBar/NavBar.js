@@ -9,10 +9,13 @@ const NavBar = () => {
         <a href="/" className="navbar-logo">Nate</a>
         <ul className="nav-menu">
           <li className="nav-item">
-            <a href="/" className="nav-link">Home</a>
+            <a href="/" className="nav-link">Men</a>
           </li>
           <li className="nav-item">
-            <a href="/products" className="nav-link">Products</a>
+            <a href="/" className="nav-link">Women</a>
+          </li>
+          <li className="nav-item">
+            <a href="/products" className="nav-link">New Arrivals</a>
           </li>
           <li className="nav-item">
             <a href="/cart" className="nav-link">Cart</a>

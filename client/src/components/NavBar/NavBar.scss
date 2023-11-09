@@ -1,19 +1,17 @@
 // NavBar.scss
 .navbar {
   background-color: transparent;
-  height: 60px;
+  height: 6em;
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 10;
 
   .navbar-container {
     width: 100%;
-    max-width: 1200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
+    padding: 0 200px;
 
     .navbar-logo {
       font-size: 24px;
@@ -25,6 +23,8 @@
     .nav-menu {
       list-style: none;
       display: flex;
+      justify-content: center;
+      align-items: center;
 
       .nav-item {
         margin-left: 50px;

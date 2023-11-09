@@ -2,7 +2,8 @@ import React from 'react';
 import './CSSWaves.scss';
 import NavBar from '../NavBar/NavBar';
 import classic_shoe2 from '../../images/classic_shoe2.png';
-import shoe1 from '../../images/shoe1.png'
+import shoe1 from '../../images/shoe1.png';
+// import SearchBar from '../SearchBar/SearchBar';
 
 const CSSWaves = () => {
   return (
@@ -13,6 +14,7 @@ const CSSWaves = () => {
         <div className="shoe-left">
             <img src={shoe1} style={{ width: '270px', height: 'auto' }} />
         </div>
+        {/* <SearchBar /> */}
         <div className="shoe-right">
             <img src={classic_shoe2} style={{ width: '300px', height: 'auto' }} />
         </div>

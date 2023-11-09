@@ -1,7 +1,7 @@
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 import NavBar from '../NavBar/NavBar';
 import TextBlock from '../../textBlock';
-import '../../App.scss';
+import './FireWatch-Parallax.scss';
 
 function FireWatchParallax() {
   return (
