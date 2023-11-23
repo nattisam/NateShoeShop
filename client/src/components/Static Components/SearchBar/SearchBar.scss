@@ -1,0 +1,32 @@
+
+
+.searchBar-container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.primary-btn button{
+    all: unset;
+    background-color: rgb(24, 143, 255);   
+    font-weight: 500;
+
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.search-area input, .primary-btn button{
+    padding: 0px 30px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    font-size: 15px;
+}
+
+.search-area input{
+    width: 300px;
+    opacity: 0.8;
+}
+
+

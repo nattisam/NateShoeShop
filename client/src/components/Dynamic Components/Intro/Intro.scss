@@ -1,0 +1,62 @@
+@import '../../../variables';
+
+.intro-whole{
+    display: flex;
+    flex-direction: column;
+
+
+
+    .intro-container {
+        height: 100vh;
+        width: 100%;
+        background-color: $color-cream;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #191919;
+
+        
+
+        .text-holder {
+            width: 90%;
+            text-align: center;
+
+            .title {
+                margin-bottom: 100px;
+                margin-left: 200px;
+            
+                h1{
+                    text-align: start;
+                    font-size: 40px;
+                    font-weight: 800;
+                }
+            }
+        }
+    }
+
+    .sale-container {
+        background: $primary-background-color;
+
+        h1 {
+            color: red;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+.text {
+    font-size: 20px;
+}
+
+.card-holder {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}

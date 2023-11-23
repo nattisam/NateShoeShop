@@ -1,0 +1,17 @@
+
+.header {
+
+    .common-outer-header {
+        height: 35vh;
+        display: flex;
+        justify-content: center;
+
+            .section-and-pic {
+                // width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+        }
+    }
+}

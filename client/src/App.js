@@ -1,15 +1,10 @@
 import './App.scss';
-import CSSWaves from './components/CSS-Waves/CSSWaves';
-import Intro from './components/Intro/Intro';
+import Navigation from './navigation/navigation';
 
-function App() {
-  return (
-    <div>
-      <CSSWaves />
-      <Intro />
-    </div>
-    
-  );
+const App = () => {
+  return( 
+    <Navigation />
+  )
 }
 
 export default App;
