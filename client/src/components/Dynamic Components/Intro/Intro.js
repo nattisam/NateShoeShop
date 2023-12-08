@@ -19,6 +19,10 @@ import shoe11 from '../../../images/shoe11.jpg';
 import shoe12 from '../../../images/shoe12.jpg';
 import shoe13 from '../../../images/shoe13.jpg';
 
+import newArrivals from '../../../json/newArrivals.json';
+import sale from '../../../json/sale.json';
+import bestSellers from '../../../json/bestSellers.json';
+
 const Intro = () => {
 
     const shoeCategory = ["Casual", "Sport", "Work", "Fashion"];
@@ -50,15 +54,16 @@ const Intro = () => {
                     <div className="title">
                         <h1>New Arrivals</h1>
                     </div>
-
                     <Carousel responsive={responsive}>
-                        <ShoeCard shoe={shoe3} name="Women Leopard Print Sneakers" category={shoeCategory[1]} price="8,800 Br"/>
-                        <ShoeCard shoe={shoeFemale2} name="Women low heel strap" category={shoeCategory[3]} price="6,800 Br"/>
-                        <ShoeCard shoe={shoe2} name="Women Laceup Running Shoe" category={shoeCategory[1]} price="6,800 Br"/>
-                        <ShoeCard shoe={shoe4} name="Men Flat Leather Shoes" category={shoeCategory[0]} price="8,900 Br"/>
-                        <ShoeCard shoe={shoe5} name="Men Sleek Leather Shoes" category={shoeCategory[0]} price="6,300 Br"/>
-                        <ShoeCard shoe={shoeFemale1} name="Men Navy Running Shoes" category={shoeCategory[1]} price="8,500 Br"/>
-                        <ShoeCard shoe={shoe} name="Men Navy Running Shoes" category={shoeCategory[1]} price="8,500 Br"/>
+                        {newArrivals.map((shoe, index) => (
+                            <ShoeCard
+                            key={index}
+                            name={shoe.name}
+                            category={shoe.category}
+                            img={shoe.img}
+                            price={shoe.price}
+                            />
+                        ))}
                     </Carousel>
                 </div>
             </div>
@@ -68,15 +73,17 @@ const Intro = () => {
                         <h1>Sale</h1>
                     </div>
                         <Carousel responsive={responsive}>
-                            <ShoeCard section="sale" shoe={shoe12} name="Men Sleek Leather Shoes" category={shoeCategory[0]} originalprice="4,850" price="2,900 Br"/>
-                            <ShoeCard section="sale" shoe={shoe13} name="Men Navy Running Shoes" category={shoeCategory[1]} originalprice="6,370" price="5,300 Br"/>
-                            <ShoeCard section="sale" shoe={shoeFemale3} name="Women Laceup Running Shoe" category={shoeCategory[1]} originalprice="6,550" price="5,260 Br"/>
-                            <ShoeCard section="sale" shoe={shoe8} name="Men Navy Running Shoes" category={shoeCategory[1]} originalprice="6,100" price="4,950 Br"/>
-                            <ShoeCard section="sale" shoe={shoeFemale2} name="Women low heel strap" category={shoeCategory[3]} originalprice="5,950" price="4,800 Br"/>
-                            <ShoeCard section="sale" shoe={shoe2} name="Women Laceup Running Shoe" category={shoeCategory[1]} originalprice="8,000" price="6,800 Br"/>
-                            <ShoeCard section="sale" shoe={shoe9} name="Women Laceup Running Shoe" category={shoeCategory[1]} originalprice="4,450" price="3,500 Br"/>
-                            <ShoeCard section="sale" shoe={shoe10} name="Women Leopard Print Sneakers" category={shoeCategory[1]} originalprice="6,350" price="5,200 Br"/>
-                            <ShoeCard section="sale" shoe={shoe11} name="Men Flat Leather Shoes" category={shoeCategory[0]} originalprice="3,800" price="3,100 Br"/>
+                            {sale.map((shoe, index) => (
+                                <ShoeCard
+                                key={index}
+                                section='sale'
+                                name={shoe.name}
+                                category={shoe.category}
+                                img={shoe.img}
+                                originalPrice={shoe.originalPrice}
+                                price={shoe.price}
+                                />
+                            ))}
                         </Carousel>
                 </div>
             </div>
@@ -85,15 +92,17 @@ const Intro = () => {
                     <div className="title">
                         <h1>Best Sellers</h1>
                     </div>
-                        <Carousel responsive={responsive}>
-                            <ShoeCard shoe={shoeFemale3} name="Women Laceup Running Shoe" category={shoeCategory[1]} price="6,800 Br"/>
-                            <ShoeCard shoe={shoe8} name="Men Navy Running Shoes" category={shoeCategory[1]} price="8,500 Br"/>
-                            <ShoeCard shoe={shoe9} name="Women Laceup Running Shoe" category={shoeCategory[1]} price="6,800 Br"/>
-                            <ShoeCard shoe={shoe10} name="Women Leopard Print Sneakers" category={shoeCategory[1]} price="8,800 Br"/>
-                            <ShoeCard shoe={shoe11} name="Men Flat Leather Shoes" category={shoeCategory[0]} price="8,900 Br"/>
-                            <ShoeCard shoe={shoe12} name="Men Sleek Leather Shoes" category={shoeCategory[0]} price="6,300 Br"/>
-                            <ShoeCard shoe={shoe13} name="Men Navy Running Shoes" category={shoeCategory[1]} price="8,500 Br"/>
-                        </Carousel>
+                    <Carousel responsive={responsive}>
+                        {bestSellers.map((shoe, index) => (
+                            <ShoeCard
+                            key={index}
+                            name={shoe.name}
+                            category={shoe.category}
+                            img={shoe.img}
+                            price={shoe.price}
+                            />
+                        ))}
+                    </Carousel>
                 </div>
             </div>
         </div>

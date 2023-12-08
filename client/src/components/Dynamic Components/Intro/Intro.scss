@@ -4,18 +4,18 @@
     display: flex;
     flex-direction: column;
 
-
-
     .intro-container {
-        height: 100vh;
+        height: 1000px;
         width: 100%;
-        background-color: $color-cream;
+        background-color: $grey-primary;
         display: flex;
         justify-content: center;
         align-items: center;
         color: #191919;
 
-        
+        h1 {
+            color: blue;
+        }
 
         .text-holder {
             width: 90%;
@@ -35,21 +35,18 @@
     }
 
     .sale-container {
-        background: $primary-background-color;
+        background: rgb(21, 21, 21);
+        
 
         h1 {
             color: red;
         }
+
+        p {
+            color: rgb(202, 202, 202);
+        }
     }
 }
-
-
-
-
-
-
-
-
 
 .text {
     font-size: 20px;

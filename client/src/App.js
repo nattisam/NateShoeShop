@@ -1,9 +1,15 @@
 import './App.scss';
 import Navigation from './navigation/navigation';
-
+import { CartProvider } from './context/CartContext';
+import { WishlistProvider } from './context/WishlistContext';
 const App = () => {
   return( 
-    <Navigation />
+    <CartProvider>
+        <WishlistProvider>
+          <Navigation />
+        </WishlistProvider>
+    </CartProvider>
+
   )
 }
 

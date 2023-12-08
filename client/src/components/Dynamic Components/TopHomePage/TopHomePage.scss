@@ -45,11 +45,6 @@
             animation: move-up-down 5s infinite ease-in-out;
             margin: 105px 100px;
           }
-          &.search-bar{
-            margin-top: 230px;
-            height: max-content;
-            z-index: 1;
-          }
           &.shoe-right {
             animation: move-up-down 5s infinite 0.5s alternate ease-in-out;
             margin: 255px 100px;
@@ -97,17 +92,29 @@
         column-gap: 50px;
         margin-top: 90px;
     
-        .secondary-btn button {
-          background-color: rgba(6, 126, 40, 0.8);
-          color: rgb(255, 255, 255);
-          font-size: 15px;
-          box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.3);
-          // border: 2px solid rgb(206, 206, 206);
-          border-radius: 10px;
-    
+        .primary-btn button {
+          padding: 0px 35px;
+          height: 55px;
+          border-radius: 55px;
+          background-color: rgba(0, 0, 0, 0.2);
+          border: 3px solid white;
+          font-size: 16px;
+          color: white; 
+          font-weight: 700;
+
           &:hover {
-            background-color: rgba(0, 0, 0, 0.4);
-            box-shadow: none;
+            background-color: white;
+            color: black;
+          }
+        }
+        .secondary-btn button {
+          color: white;
+          background-color: red;
+          border: 3px solid red;
+          
+          &:hover {
+            background-color: transparent;
+            color: white;
           }
         }
       }

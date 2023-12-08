@@ -1,26 +1,88 @@
+// ShoeCard.js
+import React from 'react';
+import { useCart } from '../../../context/CartContext';
+import { useWishlist } from '../../../context/WishlistContext';
 import './ShoeCard.scss';
+import { faHeart } from '@fortawesome/free-regular-svg-icons';
+// import { faHeart } from '@fortawesome/free-solid-svg-icons';
 
-function ShoeCard(props){
-    return(
-        <div className='whole-shoe-container'>
-            <div className='shoe-container'>
-                <div className='inner-container'>
-                    <div className="img-container">
-                        <img src={props.shoe} alt="shoe" className='shoe-img'/>
-                    </div>
-                </div>
-                <div className='shoe-info'>
-                    <span className='double-prices'>
-                        {props.section === 'sale' ? (<p className='original-price'>{props.originalprice}</p>) : null}
-                        <p className={props.section === 'sale' ? "new-arrivals-price sale-price" : "new-arrivals-price"}>{props.price}</p>
-                    </span>
-                    <p className="new-arrivals-details">{props.name}</p>
-                    <p className="new-arrivals-details new-arrivals-category">{props.category}</p>
-                    <button className="add-to-cart">Add to Cart</button>
-                </div>
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+
+function ShoeCard(props) {
+  const { addToCart } = useCart();
+  const { addToWishlist } = useWishlist();
+
+  const handleAddToWishlist = () => {
+    const newItem = {
+      img: props.img,
+      name: props.name,
+      price: props.price,
+    };
+    addToWishlist(newItem);
+  };
+
+  const handleAddToCart = () => {
+    const newItem = {
+      img: props.img,
+      name: props.name,
+      price: props.price,
+      quantity: 1,
+    };
+    addToCart(newItem);
+  };
+
+  return (
+    <div className='whole-shoe-container'>
+      <div className='shoe-and-button'>
+        <div className={
+          props.section === 'sale'
+          ? 'shoe-container sale-shoe-container'
+          : 
+          'shoe-container'
+        }>
+          <button onClick={handleAddToWishlist} className='add-to-wishlist'>
+            <FontAwesomeIcon icon={faHeart} style={{ fontSize: "16px"  }} />
+          </button>
+          <div className='inner-container'>
+            <div className='img-container'>
+              <img src={props.img} alt='shoe' className='shoe-img' />
             </div>
+          </div>
+          <div className='shoe-info'>
+            <span className='double-prices'>
+              {props.section === 'sale' ? (
+                <p className='original-price'>{props.originalPrice} Br</p>
+              ) : null}
+              <p
+                className={
+                  props.section === 'sale'
+                    ? 'new-arrivals-price sale-price'
+                    : 'new-arrivals-price'
+                }
+              >
+                {props.price} Br
+              </p>
+            </span>
+            <p className='new-arrivals-details'>{props.name}</p>
+            <p className='new-arrivals-details new-arrivals-category'>
+              {props.category}
+            </p>
+
+            
+          </div>
         </div>
-    )
+          <button onClick={handleAddToCart} className={
+            props.section === 'sale'
+            ? 'add-to-cart sale-add-to-cart'
+            : 'add-to-cart'
+          }>
+            Add to Cart
+          </button>
+      </div>
+      
+    </div>
+  );
 }
 
 export default ShoeCard;

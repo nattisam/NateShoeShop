@@ -6,7 +6,7 @@ import DraggableImage from "../../Static Components/DraggableImage";
 
 const CommonTopPage = (props) => {
     return(
-        <div className='header'>
+        <div className='header' style={{ backgroundColor: props.bgColor }}>
             <NavBar />
             <div className='outer-header common-outer-header'>  
                     <div className="section-and-pic">

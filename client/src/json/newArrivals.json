@@ -1,0 +1,48 @@
+[
+    {
+      "name": "Fur Nike Air Sneakers",
+      "category": "Casual",
+      "img": "https://i.pinimg.com/736x/6f/02/5f/6f025f90ebef7487d5c21b603b1119d9.jpg",
+      "price": 4250
+    },
+    {
+      "name": "Leather Nike Air Sneakers",
+      "category": "Casual",
+      "img": "https://i.pinimg.com/736x/9e/61/71/9e61711e74afadb3f76c1a287586a50f.jpg",
+      "price": 5400
+    },
+    {
+      "name": "Open High Heels",
+      "category": "Fashion",
+      "img": "https://i.pinimg.com/originals/b6/14/aa/b614aa3fd47c573efe0611d3304d843d.jpg",
+      "price": 6750
+    },
+    {
+      "name": "Women flat slip-ons",
+      "category": "Fashion",
+      "img": "https://s.alicdn.com/@sc04/kf/HTB1R_VCiL6TBKNjSZJi762KVFXa2.png_720x720q50.jpg",
+      "price": 4800
+    },    {
+      "name": "Nike Air Sneakers",
+      "category": "Casual",
+      "img": "https://i.pinimg.com/736x/07/45/4c/07454c502028b206b5ae4760eeff3763.jpg",
+      "price": 7500
+    },
+    {
+      "name": "Women Leather Nike Air Sneakers",
+      "category": "Fashion",
+      "img": "https://i.pinimg.com/736x/9e/61/71/9e61711e74afadb3f76c1a287586a50f.jpg",
+      "price": 5400
+    },    {
+      "name": "Women Fur Nike Air Sneakers",
+      "category": "Fashion",
+      "img": "https://i.pinimg.com/736x/6f/02/5f/6f025f90ebef7487d5c21b603b1119d9.jpg",
+      "price": 4250
+    },
+    {
+      "name": "Women Leather Nike Air Sneakers",
+      "category": "Fashion",
+      "img": "https://i.pinimg.com/736x/9e/61/71/9e61711e74afadb3f76c1a287586a50f.jpg",
+      "price": 5400
+    }
+]

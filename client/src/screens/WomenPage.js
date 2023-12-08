@@ -7,7 +7,7 @@ const WomenPage = () => {
 
     return(
         <div>
-            <CommonTopPage name="Women's" shoe={women7} width="220px"/>
+            <CommonTopPage name="Women's" shoe={women7} width="220px" bgColor="#703" />
             <ShoesWrapper />
             <EndCredits />
         </div>

@@ -3,27 +3,27 @@
 .whole-shoes-wrapper {
     display: flex;
     flex-direction: column;
-    padding: 100px 20px;
-    background-color: $color-cream;
-
+    padding: 20px;
+    background-color: $grey-primary;
 
     .shoes-filter {
         display: flex;
         gap: 40px;
-        margin-bottom: 100px;
-        margin-left: 100px;
+        margin: 40px 150px;
 
         div {
-            padding: 10px 50px;
-            border: 2px solid rgba(0, 0, 0, 0.4);
-            border-radius: 30px;
+            display: flex;
+            align-items: center;
+
+            p {
+                margin-right: 8px;
+            }
         }
     }
 
     .shoes-wrapper {
         display: flex;
         flex-wrap: wrap;
-        // justify-content: space-between;
     
         &>div {
             width: 300px;

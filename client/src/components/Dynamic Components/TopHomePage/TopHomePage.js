@@ -28,7 +28,7 @@ const TopHomePage = () => {
             <div className="primary-btn secondary-btn">
               <button>Shop Now</button>
             </div>
-            <div className="primary-btn secondary-btn">
+            <div className="primary-btn">
               <button >Contact Us</button>
             </div>
           </div>

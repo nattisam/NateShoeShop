@@ -7,8 +7,8 @@ body {
 h1, h2, h3 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-letter-spacing: 2px;
-font-size: 48px;
+  letter-spacing: 2px;
+  font-size: 48px;
 }
 
 p {
@@ -17,4 +17,8 @@ p {
   letter-spacing: 1px;
   font-size: 14px;
   color: #333333;
+}
+
+button {
+  all: unset;
 }

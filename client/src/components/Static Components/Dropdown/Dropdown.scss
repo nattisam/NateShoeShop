@@ -1,0 +1,187 @@
+.cart-dropdown {
+    position: absolute;
+    border-radius: 10px;
+    background-color: rgb(248, 248, 248);
+    width: 350px;
+    margin-top: 40px;
+    z-index: 3;
+
+    &:hover {
+      cursor: default;
+    }
+
+      .cart-dropdown-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 15px 10px;
+
+        ul {
+          text-decoration: none;
+          padding: 0;
+
+          li {
+            width: inherit;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+
+            div {
+              margin-left: 7px;
+
+              p {
+                font-size: 11px;
+                color: rgb(55, 55, 55);
+              }
+
+              .cart-price {
+                font-size: 12px;
+                font-weight: 800;
+              }
+            }
+
+            div:nth-child(1) {
+              margin: 0;
+              width: 60px;
+              aspect-ratio: 1;
+
+              img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 10px;
+              }
+            }
+            div:nth-child(2) {
+              width: 210px;
+              display: flex;
+              flex-direction: column;
+
+              p {
+                text-align: left;
+              }
+            }
+            div:nth-child(3) {
+              width: 50px;
+              display: flex;
+              align-items: center;
+
+              input {
+                width: 30px;
+              }
+
+              button {
+                color: blue;
+
+                &:hover {
+                  cursor: pointer;
+                  color: rgb(0, 0, 255, 0.6);
+                }
+              }
+            }
+            div:nth-child(4) {
+              display: flex;
+              justify-content: center;
+              
+                .minus-button {
+                  width: 18px;
+                  aspect-ratio: 1;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  border-radius: 50%;
+                  border: 2px solid red;
+
+                  .minus-icon {
+                    all: unset;
+                    width: 10px;
+                    height: 3px;
+                    background-color: red;
+                  }
+
+                  &:hover {
+                    cursor: pointer;
+                    border-color: rgb(255, 0, 0, 0.6);
+
+                    .minus-icon {
+                      background-color: rgb(255, 0, 0, 0.6);
+                    }
+                  }
+                }
+              }
+
+              p {
+                font-size: 10px;
+              }
+
+          }
+        }
+
+        .underline {
+          width: 100%;
+          height: 2px;
+          background-color: rgb(77, 77, 77);
+          margin: 5px 0px;
+        }
+
+        .cart-total {
+          display: flex;
+          justify-content: flex-end;
+
+          .cart-total-info {
+            display: flex;
+            align-items: center;
+
+            .cart-total-text {
+              font-size: 12px;
+              font-weight: 700;
+              color: rgb(47, 47, 47);
+              margin-top: 10px;
+            }
+
+            .cart-total-value {
+              margin-left: 2px;
+              font-size: 14px;
+              font-weight: 900;
+              color: rgb(30, 30, 30);
+            }
+          }
+        }
+
+        .order-button{
+          margin-top: 10px;
+          width: 100%;
+          height: 40px;
+          border: 2px solid blue;
+          color: blue;
+          font-size: 14px;
+          border-radius: 30px;
+          font-weight: 800;
+          text-align: center;
+
+          &:hover{
+              background: blue;
+              color: white;
+              cursor: pointer;
+          }
+      }
+      }
+
+      .empty-cart {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px;
+
+        p {
+          color: rgb(92, 92, 92);
+          font-size: 13px;
+        }
+
+        .big-cart-icon {
+          color: rgb(192, 192, 192);
+        }
+      }
+
+  }
