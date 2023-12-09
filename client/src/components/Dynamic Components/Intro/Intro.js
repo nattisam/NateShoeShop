@@ -25,8 +25,6 @@ import bestSellers from '../../../json/bestSellers.json';
 
 const Intro = () => {
 
-    const shoeCategory = ["Casual", "Sport", "Work", "Fashion"];
-
     const responsive = {
         superLargeDesktop: {
           // the naming can be any, depends on you.
@@ -52,7 +50,7 @@ const Intro = () => {
             <div className="intro-container">
                 <div className="text-holder">
                     <div className="title">
-                        <h1>New Arrivals</h1>
+                        <h2>New Arrivals</h2>
                     </div>
                     <Carousel responsive={responsive}>
                         {newArrivals.map((shoe, index) => (
@@ -70,7 +68,7 @@ const Intro = () => {
             <div className="intro-container sale-container">
                 <div className="text-holder">
                     <div className="title sale-title">
-                        <h1>Sale</h1>
+                        <h2>Sale</h2>
                     </div>
                         <Carousel responsive={responsive}>
                             {sale.map((shoe, index) => (
@@ -90,7 +88,7 @@ const Intro = () => {
             <div className="intro-container">
                 <div className="text-holder">
                     <div className="title">
-                        <h1>Best Sellers</h1>
+                        <h2>Best Sellers</h2>
                     </div>
                     <Carousel responsive={responsive}>
                         {bestSellers.map((shoe, index) => (

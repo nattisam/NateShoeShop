@@ -43,12 +43,12 @@ const CartDropdown = () => {
         <div className='empty-cart'>
           <p>Cart is empty</p>
           <div className='big-cart-icon'>
-            <FontAwesomeIcon icon={faShoppingCart} size='2x' />
+            <FontAwesomeIcon icon={faShoppingCart} />
           </div>
         </div>
       ) : (
         <div className='cart-dropdown-container'>
-          <ul>
+            <ul className={cartItems.length > 5 ? 'scrollableView' : ''}>
             {cartItems.map((item, index) => (
               <li key={index}>
                 <div>

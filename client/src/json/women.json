@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Colorful Spool High Heels",
+        "category": "Fashion",
+        "img": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d29tZW4lMjBzaG9lfGVufDB8fDB8fHww",
+        "price": 3380
+    },
+    {
+        "name": "Spool Medium Heels",
+        "category": "Fashion",
+        "img": "https://images.unsplash.com/photo-1535043934128-cf0b28d52f95?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8d29tZW4lMjBzaG9lfGVufDB8fDB8fHww",
+        "price": 2850
+    },
+    {
+        "name": "XBL Sport Sneakers",
+        "category": "FaSport",
+        "img": "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d29tZW4lMjBzaG9lfGVufDB8fDB8fHww",
+        "price": 3000
+    },
+    {
+        "name": "Cowboy Slock Heel",
+        "category": "Fashion",
+        "img": "https://images.unsplash.com/photo-1554062097-69c634085c6d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8d29tZW4lMjBzaG9lfGVufDB8fDB8fHww",
+        "price": 2920
+    },
+    {
+        "name": "Oxford Leathers",
+        "category": "Fashion",
+        "img": "https://images.unsplash.com/photo-1533867617858-e7b97e060509?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8d29tZW4lMjBzaG9lJTIwY2xvc2V1cHxlbnwwfHwwfHx8MA%3D%3D",
+        "price": 4100
+    },
+    {
+        "name": "Footlance Walking Shoes",
+        "category": "Sport",
+        "img": "https://rukminim1.flixcart.com/image/300/300/xif0q/shoe/x/j/p/-original-imaghsf4unx2fhkm.jpeg",
+        "price": 2440
+    },
+    {
+        "name": "Chinese Low Heels",
+        "category": "Fashion",
+        "img": "https://cdn.pixabay.com/photo/2016/03/27/22/16/fashion-1284496_1280.jpg",
+        "price": 5300
+    },
+    {
+        "name": "Ribbon Peep-toe Wedge Heels",
+        "category": "Fashion",
+        "img": "https://st2.depositphotos.com/1016929/7816/i/450/depositphotos_78165392-stock-photo-red-bow-wedges.jpg",
+        "price": 4720
+    },
+    {
+        "name": "Shiny Leather High Heels",
+        "category": "Fashion",
+        "img": "https://cdn.pixabay.com/photo/2013/09/01/18/12/womens-shoes-178163_640.jpg",
+        "price": 5140
+    },
+    {
+        "name": "Air Mesh Running Sneakers",
+        "category": "Sport",
+        "img": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/79/905844/1.jpg?2251",  
+        "price": 3800
+    }
+]

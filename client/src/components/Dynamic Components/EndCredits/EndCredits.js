@@ -8,9 +8,9 @@ import DraggableImage from '../../Static Components/DraggableImage';
 import { Waves } from '../../Static Components/Waves/Waves';
 
 
-const EndCredits = () => {
+const EndCredits = (props) => {
   return (
-    <div className="header">
+    <div className="header" style={{ backgroundColor: props.bgColor }}>
         <div className='waves-upside-down'>
             <Waves />
         </div>

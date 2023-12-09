@@ -22,3 +22,16 @@ p {
 button {
   all: unset;
 }
+
+.title {
+  margin-bottom: 50px;
+  margin-left: 200px;
+
+  h2{
+      color: blue;
+      text-align: start;
+      font-size: 40px;
+      font-weight: 800;
+      margin: 0;
+  }
+}

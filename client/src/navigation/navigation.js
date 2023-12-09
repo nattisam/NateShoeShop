@@ -5,7 +5,6 @@ import MenPage from '../screens/MenPage';
 import WomenPage from '../screens/WomenPage';
 import KidsPage from '../screens/KidsPage';
 import BrandsPage from '../screens/BrandsPage';
-import Cart from '../screens/Cart';
 
 function Navigation() {
   return (
@@ -15,7 +14,6 @@ function Navigation() {
         <Route path="/women" element={<WomenPage />} />
         <Route path="/kids" element={<KidsPage />} />
         <Route path="/brands" element={<BrandsPage />} />
-        <Route path="/cart" element={<Cart />} />
       </Routes>
   );
 }

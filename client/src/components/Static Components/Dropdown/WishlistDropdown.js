@@ -25,11 +25,11 @@ const WishlistDropdown = () => {
         ?  <div className='empty-cart'>
                 <p>Wishlist is empty</p>
                 <div className='big-cart-icon'>
-                <FontAwesomeIcon icon={faHeart} size='2x' />
+                <FontAwesomeIcon icon={faHeart} />
                 </div>
             </div>
         : <div className='cart-dropdown-container'>
-            <ul>
+            <ul className={wishlistItems.length > 5 ? 'scrollableView' : ''}>
                 {wishlistItems.map((item, index) => (
                     <li key={index}>
                     <div>

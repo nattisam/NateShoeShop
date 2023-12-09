@@ -15,10 +15,10 @@ export function Waves () {
                         <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
                     </defs>
                     <g className="parallax">
-                        <use xlinkHref="#gentle-wave" x="48" y="0" fill="rgba(247,247,247,0.7)" />
-                        <use xlinkHref="#gentle-wave" x="48" y="3" fill="rgba(247,247,247,0.5)" />
-                        <use xlinkHref="#gentle-wave" x="48" y="5" fill="rgba(247,247,247,0.3)" />
-                        <use xlinkHref="#gentle-wave" x="48" y="7" fill="rgb(247,247,247)" />
+                        <use xlinkHref="#gentle-wave" x="48" y="0" fill="rgba(225, 225, 225,0.7)" />
+                        <use xlinkHref="#gentle-wave" x="48" y="3" fill="rgba(225, 225, 225,0.5)" />
+                        <use xlinkHref="#gentle-wave" x="48" y="5" fill="rgba(225, 225, 225,0.3)" />
+                        <use xlinkHref="#gentle-wave" x="48" y="7" fill="rgb(225, 225, 225)" />
                     </g>
                     </svg>
                 </div>

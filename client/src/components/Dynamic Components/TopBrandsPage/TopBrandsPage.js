@@ -1,20 +1,21 @@
 import { Waves } from "../../Static Components/Waves/Waves";
-import { ShoesWrapper } from "../Shoes Wrapper/ShoesWrapper";
 import NavBar from "../../Static Components/NavBar/NavBar";
-import './CommonTopPage.scss';
+import './TopBrandsPage.scss';
 import DraggableImage from "../../Static Components/DraggableImage";
 
-const CommonTopPage = (props) => {
+const TopBrandsPage = (props) => {
     return(
         <div className='header' style={{ backgroundColor: props.bgColor }}>
             <NavBar />
             <div className='outer-header common-outer-header'>  
                     <div className="section-and-pic">
                         <div>
-                            <h1>{props.name} Shoes</h1>
+                            <h1>{props.name}</h1>
                         </div>
-                        <div>
-                            <DraggableImage shoe={props.shoe} width={props.width}/>
+                        <div className="logo-container">
+                            <div><DraggableImage shoe={props.shoe1} width={props.width}/></div>
+                            <div><DraggableImage shoe={props.shoe2} width={props.width}/></div>
+                            <div><DraggableImage shoe={props.shoe3} width={props.width}/></div>
                         </div>
                 </div>
             </div>
@@ -24,4 +25,4 @@ const CommonTopPage = (props) => {
     )
 }
 
-export default CommonTopPage;
+export default TopBrandsPage;

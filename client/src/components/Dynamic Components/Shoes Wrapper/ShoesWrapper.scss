@@ -6,21 +6,6 @@
     padding: 20px;
     background-color: $grey-primary;
 
-    .shoes-filter {
-        display: flex;
-        gap: 40px;
-        margin: 40px 150px;
-
-        div {
-            display: flex;
-            align-items: center;
-
-            p {
-                margin-right: 8px;
-            }
-        }
-    }
-
     .shoes-wrapper {
         display: flex;
         flex-wrap: wrap;

@@ -1,0 +1,16 @@
+@import '../../../variables.scss';
+
+.shoes-filter {
+    display: flex;
+    gap: 50px;
+    padding: 30px 180px;
+
+    div {
+        display: flex;
+        align-items: center;
+
+        p {
+            margin-right: 8px;
+        }
+    }
+}

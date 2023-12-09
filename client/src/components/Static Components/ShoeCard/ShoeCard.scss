@@ -1,4 +1,14 @@
 @import '../../../variables.scss';
+$animation-duration: 0.3s;
+
+@keyframes buttonClickAnimation {
+    0% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0 50%;
+    }
+  }
 
 .whole-shoe-container {
 
@@ -20,6 +30,7 @@
                 cursor: pointer;
                 transform: scale(1.04);
             }
+            
 
             .add-to-wishlist {
                 width: 30px;
@@ -35,18 +46,24 @@
                 z-index: 1;
                 margin: 8px;
 
-                &:hover, &:focus {
-                    color: rgb(255, 0, 0);
+                &:hover {
+                    color: rgb(255, 0, 0, 0.5);
                 }
+
+                &:active {
+                    background-size: 200% 100%;
+                    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.6) 50%, red 50%);
+                    animation: buttonClickAnimation $animation-duration;
+                  }
             }
+              
+
         
             .inner-container{
                 width: 220px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
-        
-        
         
                 .img-container {
                     width: 220px;
@@ -93,14 +110,14 @@
                 }
         
                 .new-arrivals-details{
-                    font-size: 13px;
-                    font-weight: 700;
+                    font-size: 12px;
+                    font-weight: 500;
                     text-align: start;
                 }
         
                 .new-arrivals-category{
-                    font-size: 12px;
-                    font-weight: 800;
+                    font-size: 11px;
+                    font-weight: 700;
                 }
         
             }
@@ -143,6 +160,6 @@
 
 
 p {
-    color: rgb(48, 48, 48);
+    color: rgb(30, 28, 70);
     margin: 5px 0px;
 }

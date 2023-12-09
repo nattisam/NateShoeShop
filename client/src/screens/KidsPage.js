@@ -4,12 +4,12 @@ import kids from '../images/kids6.png';
 import EndCredits from "../components/Dynamic Components/EndCredits/EndCredits";
 
 const KidsPage = () => {
-
+    const pageName = "Kids'";
     return(
         <div>
-            <CommonTopPage name="Kids'" shoe={kids} width="190px" bgColor="#141"/>
-            <ShoesWrapper />
-            <EndCredits />
+            <CommonTopPage name={pageName} shoe={kids} width="190px" bgColor="#160"/>
+            <ShoesWrapper name={pageName}/>
+            <EndCredits bgColor="#160"/>
         </div>
 
     )

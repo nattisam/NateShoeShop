@@ -17,9 +17,9 @@ const TopHomePage = () => {
 
         <div className='middle-content'>
           <div className='middle-content-text'>
-            <h1>
+            <h3>
               Shoe shopping like never before!
-            </h1>
+            </h3>
             <p>
               Find and purchase your favorite shoes from the comfort of your home.
             </p>

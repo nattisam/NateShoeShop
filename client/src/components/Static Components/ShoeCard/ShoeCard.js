@@ -1,5 +1,5 @@
 // ShoeCard.js
-import React from 'react';
+import React, { useState } from 'react';
 import { useCart } from '../../../context/CartContext';
 import { useWishlist } from '../../../context/WishlistContext';
 import './ShoeCard.scss';
@@ -14,6 +14,8 @@ function ShoeCard(props) {
   const { addToWishlist } = useWishlist();
 
   const handleAddToWishlist = () => {
+    toggleAnimation();
+
     const newItem = {
       img: props.img,
       name: props.name,
@@ -32,16 +34,21 @@ function ShoeCard(props) {
     addToCart(newItem);
   };
 
+  function toggleAnimation() {
+    const targetDiv = document.getElementById('targetDiv');
+    targetDiv.classList.toggle('animate');
+  }
+
   return (
     <div className='whole-shoe-container'>
-      <div className='shoe-and-button'>
+      <div className='shoe-and-button' id='targetDiv'>
         <div className={
           props.section === 'sale'
           ? 'shoe-container sale-shoe-container'
           : 
           'shoe-container'
         }>
-          <button onClick={handleAddToWishlist} className='add-to-wishlist'>
+          <button onClick={handleAddToWishlist} className={'add-to-wishlist'}>
             <FontAwesomeIcon icon={faHeart} style={{ fontSize: "16px"  }} />
           </button>
           <div className='inner-container'>

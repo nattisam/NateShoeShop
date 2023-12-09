@@ -5,11 +5,13 @@ import EndCredits from "../components/Dynamic Components/EndCredits/EndCredits";
 
 const WomenPage = () => {
 
+    const pageName = "Women's";
+
     return(
         <div>
-            <CommonTopPage name="Women's" shoe={women7} width="220px" bgColor="#703" />
-            <ShoesWrapper />
-            <EndCredits />
+            <CommonTopPage name={pageName} shoe={women7} width="220px" bgColor="#703" />
+            <ShoesWrapper name={pageName}/>
+            <EndCredits bgColor="#703"/>
         </div>
 
     )

@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Canvas High Vans",
+        "category": "Casual",
+        "img": "https://img.freepik.com/premium-photo/babys-little-sneakers-colorful-background-concept-waiting-baby_197602-3747.jpg",
+        "price": 2200
+      },
+      {
+        "name": "Leather Short Boots",
+        "category": "Fashion",
+        "img": "https://thumbs.dreamstime.com/b/leather-kids-shoes-small-isolated-white-background-concept-coming-autumn-winter-202471134.jpg",
+        "price": 3100
+      },
+      {
+        "name": "Canvas Low Vans",
+        "category": "Casual",
+        "img": "https://media.istockphoto.com/id/522628236/photo/little-girl-sneakers-shoes.jpg?s=612x612&w=0&k=20&c=JT7FEcRZNzOaAwDoFldcp5iymPU8hJ8Yt-WFvKZpcvw=",
+        "price": 1900
+      },
+      {
+        "name": "Puffy Fur Strap-ons",
+        "category": "Casual",
+        "img": "https://img.freepik.com/free-photo/baby-boy-shoes-isolated_1203-6847.jpg",
+        "price": 2400
+      },
+      {
+        "name": "Bootcut Cotton Strap-ons",
+        "category": "Casual",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5Eo5EmQp8kglprZv9e_wWQIUmsLkk0vAhTB3Ez4wfGpEdoh42jXitf8YEH_T9yJSr4O4&usqp=CAU",
+        "price": 2000
+      },
+      {
+        "name": "Hard-Sole Breathable Bootcuts",
+        "category": "Casual",
+        "img": "https://thumbs.dreamstime.com/b/kids-shoes-untied-white-background-62688399.jpg", 
+        "price": 2500
+      }
+  ]

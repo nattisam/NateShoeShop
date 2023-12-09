@@ -3,7 +3,6 @@
 .header {
   position: relative;
   text-align: center;
-  background: $secondary-background-color;
   color: white;
   overflow: hidden;
 
@@ -12,7 +11,6 @@
     height: 65vh;
     display: flex;
     flex-direction: column;
-
 
     .inner-header {
       margin: 0;
@@ -74,7 +72,7 @@
 
       .middle-content-text {
         
-        h1{
+        h3{
           font-size: 34px;
           color: rgb(223, 223, 223);
         }
@@ -93,12 +91,12 @@
         margin-top: 90px;
     
         .primary-btn button {
-          padding: 0px 35px;
+          padding: 0px 40px;
           height: 55px;
           border-radius: 55px;
           background-color: rgba(0, 0, 0, 0.2);
           border: 3px solid white;
-          font-size: 16px;
+          font-size: 17px;
           color: white; 
           font-weight: 700;
 
@@ -113,7 +111,7 @@
           border: 3px solid red;
           
           &:hover {
-            background-color: transparent;
+            background-color: rgb(255, 0, 0, 0.7);
             color: white;
           }
         }
@@ -187,7 +185,7 @@
     .content {
       height: 30vh;
     }
-    h1 {
+    h3 {
       font-size: 24px;
     }
   }
