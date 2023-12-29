@@ -10,7 +10,7 @@ const WomenPage = () => {
     return(
         <div>
             <CommonTopPage name={pageName} shoe={women7} width="220px" bgColor="#703" />
-            <ShoesWrapper name={pageName}/>
+            <ShoesWrapper name={pageName} bgColor="#703"/>
             <EndCredits bgColor="#703"/>
         </div>
 

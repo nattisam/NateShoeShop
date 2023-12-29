@@ -37,6 +37,10 @@ const CartDropdown = () => {
     setTotalPrice(total);
   };
 
+  const handleOrder = () => {
+    alert('Your order has been successful!');
+  }
+
   return (
     <div className='cart-dropdown'>
       {cartItems.length === 0 ? (
@@ -85,7 +89,7 @@ const CartDropdown = () => {
               <p className='cart-total-value'>{totalPrice} Br</p>
             </span>
           </div>
-          <button className='order-button'>
+          <button className='order-button' onClick={handleOrder}>
             Order
           </button>
         </div>

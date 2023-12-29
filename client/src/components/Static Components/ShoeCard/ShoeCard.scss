@@ -11,24 +11,32 @@ $animation-duration: 0.3s;
   }
 
 .whole-shoe-container {
+    margin: 15px 0;
 
     .shoe-and-button {
         display: flex;
         flex-direction: column;
         align-items: center;
 
+        p {
+            color: rgb(96, 96, 96);
+            margin: 3px 0px;
+        }
+
         .shoe-container {
-            width: 220px;
+            border-radius: 5px;
+            overflow: hidden;
+            width: 240px;
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin: 20px;
-            box-shadow: 2px 5px 10px 0px rgb(213, 213, 213);
+            margin: 20px 15px;
+            box-shadow: 3px 3px 5px 2px rgb(180, 180, 180);
             transition: 0.3s ease-in-out;
         
             &:hover{
                 cursor: pointer;
-                transform: scale(1.04);
+                transform: scale(1.05);
             }
             
 
@@ -56,18 +64,16 @@ $animation-duration: 0.3s;
                     animation: buttonClickAnimation $animation-duration;
                   }
             }
-              
 
-        
             .inner-container{
-                width: 220px;
+                width: 240px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
         
                 .img-container {
-                    width: 220px;
-                    height: 220px;
+                    width: 240px;
+                    height: 240px;
                     position: relative;
                     overflow: hidden;
                     
@@ -79,15 +85,13 @@ $animation-duration: 0.3s;
                 }
             }
             
-        
-        
             .shoe-info{
                 width: 90%;
                 margin-bottom: 10px;
 
                 .double-prices {
                     display: flex;
-                    justify-content: flex-end;
+                    justify-content: right;
                     align-items: baseline;
                     gap: 5px;
         
@@ -98,7 +102,7 @@ $animation-duration: 0.3s;
                     }
         
                     .new-arrivals-price{
-                        color: blue;
+                        color: red;
                         font-size: 13px;
                         text-align: end;
                         font-weight: 900;
@@ -112,54 +116,56 @@ $animation-duration: 0.3s;
                 .new-arrivals-details{
                     font-size: 12px;
                     font-weight: 500;
-                    text-align: start;
+                    text-align: left;
+                    height: 28px;
                 }
         
                 .new-arrivals-category{
                     font-size: 11px;
                     font-weight: 700;
+                    text-align: left;
                 }
         
             }
         }
 
         .sale-shoe-container {
-            box-shadow: 2px 5px 10px 0px rgb(44, 44, 44);
+            box-shadow: 3px 3px 5px 2px rgb(20, 20, 20);
+
+            p {
+                color: rgb(174, 174, 174);
+            }
         }
 
             
         .add-to-cart{
-            width: 220px;
+            width: 240px;
             height: 40px;
-            border: 2px solid blue;
-            color: blue;
+            border: 2px solid red;
+            color: red;
             font-size: 13px;
             border-radius: 30px;
             font-weight: 800;
             text-align: center;
+            box-shadow: 3px 3px 5px 2px rgb(180, 180, 180);
+            transition: 0.3s ease-in-out;
 
             &:hover{
-                background: blue;
+                background: red;
                 color: white;
                 cursor: pointer;
+                transform: scale(1.05);
             }
         }
 
         .sale-add-to-cart {
             border-color: red;
             color: red;
+            box-shadow: 3px 3px 5px 2px rgb(20, 20, 20);
 
             &:hover {
                 background-color: red;
             }
         }
     }
-    
-
-}
-
-
-p {
-    color: rgb(30, 28, 70);
-    margin: 5px 0px;
 }

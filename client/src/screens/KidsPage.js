@@ -7,9 +7,9 @@ const KidsPage = () => {
     const pageName = "Kids'";
     return(
         <div>
-            <CommonTopPage name={pageName} shoe={kids} width="190px" bgColor="#160"/>
-            <ShoesWrapper name={pageName}/>
-            <EndCredits bgColor="#160"/>
+            <CommonTopPage name={pageName} shoe={kids} width="190px" bgColor="#0D5C63"/>
+            <ShoesWrapper name={pageName}  bgColor="#0D5C63"/>
+            <EndCredits bgColor="#0D5C63"/>
         </div>
 
     )

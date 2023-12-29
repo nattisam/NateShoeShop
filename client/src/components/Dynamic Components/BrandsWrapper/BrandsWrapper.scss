@@ -1,6 +1,19 @@
 @import '../../../variables.scss';
 
 .brands-wrapper {
-    padding: 0 0 40px 20px;
+    padding: 80px 10px;
     background-color: $grey-primary;
+
+    .carousel-container {
+        padding-bottom: 50px;
+
+        .title {
+            all: unset;
+
+            h2 {
+                margin-left: 150px;
+                font-size: 26px;
+            }
+        }
+    }
 }

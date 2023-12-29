@@ -13,9 +13,9 @@ const TopBrandsPage = (props) => {
                             <h1>{props.name}</h1>
                         </div>
                         <div className="logo-container">
-                            <div><DraggableImage shoe={props.shoe1} width={props.width}/></div>
+                            {/* <div><DraggableImage shoe={props.shoe1} width={props.width}/></div>
                             <div><DraggableImage shoe={props.shoe2} width={props.width}/></div>
-                            <div><DraggableImage shoe={props.shoe3} width={props.width}/></div>
+                            <div><DraggableImage shoe={props.shoe3} width={props.width}/></div> */}
                         </div>
                 </div>
             </div>

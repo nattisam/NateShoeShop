@@ -3,18 +3,150 @@
 .whole-shoes-wrapper {
     display: flex;
     flex-direction: column;
-    padding: 20px;
     background-color: $grey-primary;
+
+    .shoes-filter {
+        display: flex;
+        justify-content: left;
+        margin: 50px 100px;
+        gap: 30px;
+    
+    div {
+        display: flex;
+        justify-content: center;
+
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            width: 150px;
+            position: absolute;
+            margin-top: 40px;
+            border-radius: 10px;
+            z-index: 3;
+            background-color: rgb(240, 240, 240);
+
+            button {
+                all: unset;
+                width: 100%;
+                text-align: center;
+                height: 35px;
+                cursor: pointer;
+
+                &>p {
+                    font-size: 12px;
+                }
+
+                &:hover {
+                    background-color: rgb(224, 224, 224);
+        
+                    &>p {
+                      color: rgb(32, 32, 32);
+                      font-weight: 600;
+                    }
+                }
+            }
+        }
+
+        button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid rgb(120, 120, 120);
+            padding: 8px 18px;
+            border-radius: 25px;
+            cursor: pointer;
+    
+            p {
+                margin-right: 5px;
+                font-size: 13px;
+            }
+        }
+    }
+}
 
     .shoes-wrapper {
         display: flex;
-        flex-wrap: wrap;
-    
-        &>div {
-            width: 300px;
+        margin: 0px 20px;
+
+        .shoes-container {
             display: flex;
-            justify-content: center;
-            margin-bottom: 50px;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+
+            .no-items {
+                all: unset;
+                display: flex;
+                align-items: center;
+                margin: 80px 150px;
+
+                p {
+                    font-size: 25px;
+                    margin-left: 20px;
+                }
+            }
+            
+            &>div {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 50px;
+                padding: 10px 0;
+            }
+        }
+    }
+}
+
+@media (max-width: 960px) {
+    .whole-shoes-wrapper {
+
+        .shoes-filter {
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+
+            div {
+
+                button {
+                    padding: 5px 10px;
+            
+                    p {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    
+        .shoes-wrapper {
+            margin: 0;
+
+            .shoes-container {
+                gap: 0;
+                justify-content: space-around;
+    
+                .no-items {
+                    all: unset;
+                    display: flex;
+                    align-items: center;
+                    margin: 80px 150px;
+    
+                    p {
+                        font-size: 25px;
+                        color: gray;
+                        margin-left: 20px;
+                    }
+                }
+                
+                &>div {
+                    display: flex;
+                    justify-content: center;
+                    margin-bottom: 50px;
+                    padding: 10px 0;
+                }
+            }
         }
     }
 }

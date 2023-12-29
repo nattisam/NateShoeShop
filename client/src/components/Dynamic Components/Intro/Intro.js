@@ -3,45 +3,35 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
 import ShoeCard from '../../Static Components/ShoeCard/ShoeCard';
-import shoe from '../../../images/ShoeArrivalNavyRunningShoe.jpg';
-import shoe2 from '../../../images/ShoeArrivalLaceupRunningShoe.jpg';
-import shoe3 from '../../../images/ShoeArrivalLeopardPrintSneakers.jpg';
-import shoe4 from '../../../images/ShoeArrivalCasualFlatShoe.jpg';
-import shoe5 from '../../../images/ShoeArrivalSleekLeatherShoe.jpg';
-import shoeFemale1 from '../../../images/shoeFemale1.jpg';
-import shoeFemale2 from '../../../images/shoeFemale2.jpg';
-import shoeFemale3 from '../../../images/shoeFemale3.jpg';
-
-import shoe8 from '../../../images/shoe8.jpg';
-import shoe9 from '../../../images/shoe9.jpg';
-import shoe10 from '../../../images/shoe10.jpg';
-import shoe11 from '../../../images/shoe11.jpg';
-import shoe12 from '../../../images/shoe12.jpg';
-import shoe13 from '../../../images/shoe13.jpg';
 
 import newArrivals from '../../../json/newArrivals.json';
 import sale from '../../../json/sale.json';
 import bestSellers from '../../../json/bestSellers.json';
+import shoes from '../../../json/shoes.json';
 
 const Intro = () => {
+
+    const newArrivalShoes = shoes.filter(shoe => shoe.section === "New Arrivals");
+    const saleShoes = shoes.filter(shoe => shoe.section === "Sale");
+
 
     const responsive = {
         superLargeDesktop: {
           // the naming can be any, depends on you.
-          breakpoint: { max: 4000, min: 1024 },
+          breakpoint: { max: 4000, min: 1500 },
           items: 5
         },
         desktop: {
-          breakpoint: { max: 1024, min: 800 },
-          items: 3
+          breakpoint: { max: 1500, min: 1200 },
+          items: 4
         },
         tablet: {
-          breakpoint: { max: 800, min: 464 },
-          items: 2
+          breakpoint: { max: 1200, min: 960 },
+          items: 3
         },
         mobile: {
-          breakpoint: { max: 464, min: 0 },
-          items: 1
+          breakpoint: { max: 500, min: 0 },
+          items: 1.5
         }
       };
 
@@ -53,7 +43,7 @@ const Intro = () => {
                         <h2>New Arrivals</h2>
                     </div>
                     <Carousel responsive={responsive}>
-                        {newArrivals.map((shoe, index) => (
+                        {newArrivalShoes.map((shoe, index) => (
                             <ShoeCard
                             key={index}
                             name={shoe.name}
@@ -71,15 +61,15 @@ const Intro = () => {
                         <h2>Sale</h2>
                     </div>
                         <Carousel responsive={responsive}>
-                            {sale.map((shoe, index) => (
+                            {saleShoes.map((shoe, index) => (
                                 <ShoeCard
-                                key={index}
-                                section='sale'
-                                name={shoe.name}
-                                category={shoe.category}
-                                img={shoe.img}
-                                originalPrice={shoe.originalPrice}
-                                price={shoe.price}
+                                        key={index}
+                                        section='sale'
+                                        name={shoe.name}
+                                        category={shoe.category}
+                                        img={shoe.img}
+                                        originalPrice={shoe.originalPrice}
+                                        price={shoe.price}
                                 />
                             ))}
                         </Carousel>
@@ -93,11 +83,11 @@ const Intro = () => {
                     <Carousel responsive={responsive}>
                         {bestSellers.map((shoe, index) => (
                             <ShoeCard
-                            key={index}
-                            name={shoe.name}
-                            category={shoe.category}
-                            img={shoe.img}
-                            price={shoe.price}
+                                key={index}
+                                name={shoe.name}
+                                category={shoe.category}
+                                img={shoe.img}
+                                price={shoe.price}
                             />
                         ))}
                     </Carousel>

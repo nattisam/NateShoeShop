@@ -5,27 +5,22 @@
   text-align: center;
   color: white;
   overflow: hidden;
+  background-color: rgb(13, 31, 34);
 
   .outer-header {
     width: 100%;
     height: 65vh;
     display: flex;
     flex-direction: column;
+    display: flex;
 
     .inner-header {
+      width: 100vw;
       margin: 0;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-  
-      .middle-header {
-        display: flex;
-        flex-direction: column;
-        gap: 70px;
-      }
-  
-  
-  
+
       @keyframes move-up-down {
           0% {
             transform: translateY(0);
@@ -42,10 +37,12 @@
           &.shoe-left {
             animation: move-up-down 5s infinite ease-in-out;
             margin: 105px 100px;
+            height: 50px;
           }
           &.shoe-right {
             animation: move-up-down 5s infinite 0.5s alternate ease-in-out;
             margin: 255px 100px;
+            height: 50px;
           }
         }
   
@@ -74,15 +71,16 @@
         
         h3{
           font-size: 34px;
+          margin: 5px;
           color: rgb(223, 223, 223);
         }
 
         p {
+          margin-top: 20px;
           font-size: 14px;
           color: rgb(203, 203, 203);
         }
       }
-
 
       .shopnow-contact {
         display: flex;
@@ -91,14 +89,14 @@
         margin-top: 90px;
     
         .primary-btn button {
-          padding: 0px 40px;
-          height: 55px;
+          padding: 0px 35px;
+          height: 45px;
           border-radius: 55px;
           background-color: rgba(0, 0, 0, 0.2);
           border: 3px solid white;
-          font-size: 17px;
+          font-size: 16px;
           color: white; 
-          font-weight: 700;
+          font-weight: 600;
 
           &:hover {
             background-color: white;
@@ -111,82 +109,66 @@
           border: 3px solid red;
           
           &:hover {
-            background-color: rgb(255, 0, 0, 0.7);
+            background-color: rgb(160, 0, 0);
+            border-color: rgb(160, 0, 0);
             color: white;
           }
         }
       }
     }
-
-
   }
+}
 
+@media (max-width: 960px) {
+  .header {
+  
+    .outer-header {
+      display: flex;
+      align-items: center;
+      height: 70vh;
+  
+      .inner-header {
 
+          div {
+            margin: 0px 40px;
 
-
-
-  .waves {
-    position: relative;
-    width: 100%;
-    height: 15vh;
-    margin-bottom: -7px; /* Fix for safari gap */
-    min-height: 100px;
-    max-height: 150px;
-    z-index: 1;
-  }
-
-  .content {
-    position: relative;
-    height: 20vh;
-    text-align: center;
-    background-color: white;
-  }
-
-  /* Animation */
-  .parallax > use {
-    animation: move-forever 25s cubic-bezier(.55,.5,.45,.5) infinite;
-  }
-
-  .parallax > use:nth-child(1) {
-    animation-delay: -2s;
-    animation-duration: 7s;
-  }
-
-  .parallax > use:nth-child(2) {
-    animation-delay: -3s;
-    animation-duration: 10s;
-  }
-
-  .parallax > use:nth-child(3) {
-    animation-delay: -4s;
-    animation-duration: 13s;
-  }
-
-  .parallax > use:nth-child(4) {
-    animation-delay: -5s;
-    animation-duration: 20s;
-  }
-
-  @keyframes move-forever {
-    0% {
-      transform: translate3d(-90px, 0, 0);
-    }
-    100% {
-      transform: translate3d(85px, 0, 0);
-    }
-  }
-
-  /* Shrinking for mobile */
-  @media (max-width: 768px) {
-    .waves {
-      height: 40px;
-      min-height: 40px;
-    }
-    .content {
-      height: 30vh;
-    }
-    h3 {
-      font-size: 24px;
+            &.shoe-left {
+              margin: 250px 0px;
+            }
+            &.shoe-right {
+              margin: 300px 0px;
+            }
+          }
+      }
+  
+      .middle-content {
+        width: 80vw;
+        margin-top: 80px;
+        gap: 130px;
+  
+        .middle-content-text {
+          
+          h3{
+            font-size: 26px;
+            color: rgb(223, 223, 223);
+          }
+  
+          p {
+            font-size: 12px;
+            color: rgb(203, 203, 203);
+          }
+        }
+  
+        .shopnow-contact {
+          column-gap: 30px;
+      
+          .primary-btn button {
+            padding: 0px 30px;
+            height: 40px;
+            font-size: 12px;
+          }
+        }
+      }
     }
   }
 }

@@ -1,15 +1,14 @@
-// ShoeCard.js
-import React, { useState } from 'react';
+import React from 'react';
 import { useCart } from '../../../context/CartContext';
 import { useWishlist } from '../../../context/WishlistContext';
 import './ShoeCard.scss';
 import { faHeart } from '@fortawesome/free-regular-svg-icons';
-// import { faHeart } from '@fortawesome/free-solid-svg-icons';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 function ShoeCard(props) {
+
   const { addToCart } = useCart();
   const { addToWishlist } = useWishlist();
 
@@ -72,11 +71,9 @@ function ShoeCard(props) {
               </p>
             </span>
             <p className='new-arrivals-details'>{props.name}</p>
-            <p className='new-arrivals-details new-arrivals-category'>
+            <p className='new-arrivals-category'>
               {props.category}
             </p>
-
-            
           </div>
         </div>
           <button onClick={handleAddToCart} className={

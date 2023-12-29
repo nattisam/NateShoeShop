@@ -1,6 +1,5 @@
 
 .header {
-    background: rgb(21, 21, 21);
 
     .common-outer-header {
         height: 40vh;
@@ -8,10 +7,17 @@
         justify-content: center;
 
             .section-and-pic {
+                width: 100%;
                 display: flex;
                 flex-direction: row;
-                justify-content: space-around;
+                justify-content: space-between;
                 align-items: center;
         }
+    }
+}
+
+@media (max-width: 960px) {
+    h1 {
+        font-size: 26px;
     }
 }
