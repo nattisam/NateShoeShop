@@ -1,90 +1,28 @@
 [
   {
-      "name": "Fur Nike Air Sneakers",
-      "category": "Casual",
-      "img": "https://i.pinimg.com/736x/6f/02/5f/6f025f90ebef7487d5c21b603b1119d9.jpg",
-      "price": 4250,
-      "color": "White",
-      "size": 38,                                                     
-      "brand": "Nike",
-      "section": "New Arrivals"
-  },
-  {
-      "name": "Mesh Running Sneakers",
-      "category": "Casual",
-      "img": "https://media.istockphoto.com/id/1350560575/photo/pair-of-blue-running-sneakers-on-white-background-isolated.jpg?s=612x612&w=0&k=20&c=A3w_a9q3Gz-tWkQL6K00xu7UHdN5LLZefzPDp-wNkSU=",
-      "price": 8200,
-      "color": "Blue",
-      "size": 40,                                                     
-      "brand": "",
-      "section": "New Arrivals"
-
-  },
-  {
-      "name": "Open High Heels",
+      "name": "Balenciaga Triple S Denim",
       "category": "Fashion",
-      "img": "https://i.pinimg.com/originals/b6/14/aa/b614aa3fd47c573efe0611d3304d843d.jpg",
-      "price": 6750,
+      "img": "https://balenciaga.dam.kering.com/m/3195e1ddce4a28f7/Medium-524039W2DEN4000_F.jpg?v=2",                                                    
+      "price": 15200,
       "color": "Blue",
-      "size": 37,                                                     
-      "brand": "",
-      "section": "New Arrivals"
+      "size": 39,  
+      "brand": "Balenciaga",
+      "section": "Women",
+      "special": "New Arrivals"
   },
   {
-      "name": "Leather Nike Air Sneakers",
-      "category": "Casual",
-      "img": "https://i.pinimg.com/736x/9e/61/71/9e61711e74afadb3f76c1a287586a50f.jpg",
-      "price": 5400,
-      "color": "Pink",
-      "size": 38,                                                     
-      "brand": "Nike",
-      "section": "New Arrivals"
-  },
-  {
-      "name": "Women flat slip-ons",
-      "category": "Fashion",
-      "img": "https://s.alicdn.com/@sc04/kf/HTB1R_VCiL6TBKNjSZJi762KVFXa2.png_720x720q50.jpg",
-      "price": 4800,
-      "color": "Yellow",
-      "size": 36,                                                     
-      "brand": "",
-      "section": "New Arrivals"
-  },    
-  {
-      "name": "Nike Air Sneakers",
-      "category": "Casual",
-      "img": "https://i.pinimg.com/736x/07/45/4c/07454c502028b206b5ae4760eeff3763.jpg",
-      "price": 7500,
-      "color": "White Black",
-      "size": 40,                                                     
-      "brand": "Nike",
-      "section": "New Arrivals"
-  },
-
-  {
-    "name": "High Brown Balenciaga",
+    "name": "Gucci Heeled Metallic Sandals",
     "category": "Fashion",
-    "img": "https://i.pinimg.com/736x/f7/4a/79/f74a79a2bb446df766b0a19ca5fd1958.jpg",
-    "originalPrice": 10400,
-    "price": 8650,
-    "color": "Brown",
-    "size": 37,                                                     
-    "brand": "Balenciaga",
-    "section": "Sale"
+    "img": "https://media.gucci.com/style/DarkGray_Center_0_0_980x980/1680543042/551213_B8B00_8106_002_090_0000_Light-Womens-heeled-metallic-sandal.jpg",
+    "price": 8000,
+    "color": "White",
+    "size": 37,  
+    "brand": "Gucci",
+    "section": "Women"
   },
+
   {
-    "name": "Breathable Lace Up Shoes",
-    "category": "Casual",
-    "img": "https://img.ltwebstatic.com/images3_spmp/2023/05/22/1684770397feba27a4c60361c435ab80c0e294a940_thumbnail_720x.webp",
-    "originalPrice": 8000,
-    "price": 5850,
-    "color": "White Brown Blue",
-    "size": 43,                                                     
-    "brand": "",
-    "section": "Sale"
-  },
-  {
-    "name": "Air Jordan 1",
+    "name": "Nike Air Jordan 1",
     "category": "Casual",
     "img": "https://cdn.luxe.digital/media/20230927084701/best-jordans-of-all-time-ranking-list-luxe-digital.jpg",
     "originalPrice": 8400,
@@ -92,41 +30,35 @@
     "color": "Red Black",
     "size": 42,                                                     
     "brand": "Nike",
-    "section": "Sale"
+    "section": "Men",
+    "special": "Sale"
   },
+
   {
-    "name": "High Sole Mesh Sneakers",
-    "category": "Casual",
-    "img": "https://m.media-amazon.com/images/I/61qPGxZcBYL._AC_UF1000,1000_QL80_.jpg",      
-    "originalPrice": 7280,
-    "price": 5400,
-    "color": "White Blue",
-    "size": 43,                                                     
-    "brand": "",
-    "section": "Sale"
-  },
-  {
-    "name": "Ribbon Peep-toe Wedge Heels",
+    "name": "Gucci Wide Heels",
     "category": "Fashion",
-    "img": "https://st2.depositphotos.com/1016929/7816/i/450/depositphotos_78165392-stock-photo-red-bow-wedges.jpg",
-    "price": 4720,
-    "originalPrice": 7050,
-    "color": "Red",
+    "img": "https://cdn.modesens.com/media/61601055",
+    "price": 10400,
+    "color": "Brown",
     "size": 36,                                                     
-    "brand": "",
-    "section": "Sale"
+    "brand": "Gucci",
+    "section": "Women",
+    "special": "Best Sellers"
+
   },
   {
-    "name": "Gradient Mesh Sneakers",
-    "category": "Casual",
-    "img": "https://ae01.alicdn.com/kf/S001853a57a8041a3a7711839eedadb01w.jpg_640x640Q90.jpg_.webp",
-    "originalPrice": 7450,
-    "price": 5500,
-    "color": "Black White",
-    "size": 42,                                                     
-    "brand": "",
-    "section": "Sale"
+    "name": "Balenciaga Triple S Chunky",
+    "category": "Fashion",
+    "img": "https://www.rattiboutique.com/400/ca03x544351x008-a.jpg",
+    "price": 14500,
+    "color": "Brown",
+    "size": 43,                                                     
+    "brand": "Balenciaga",
+    "section": "Women",
+    "special": "Best Sellers"
+
   },
+
   {
     "name": "Classic Cotton Nike Shoes",
     "category": "Casual",
@@ -135,7 +67,8 @@
     "color": "Brown",
     "size": 43,                                                     
     "brand": "Nike",
-    "section": "Men"
+    "section": "Men",
+    "special": "New Arrivals"
   },
   {
     "name": "Lace Up Alligator Skin Leather",
@@ -155,7 +88,8 @@
     "color": "Green",
     "size": 45,                                                     
     "brand": "Nike",
-    "section": "Men"
+    "section": "Men",
+    "special": "New Arrivals"
   },    
   {
     "name": "Bootcut Nike Basketball Shoes",
@@ -164,26 +98,6 @@
     "price": 6840,
     "color": "Black",
     "size": 42,                                                     
-    "brand": "Nike",
-    "section": "Men"
-  },
-  {
-    "name": "Gucci Leather Loafers",
-    "category": "Fashion",
-    "img": "https://i.pinimg.com/736x/de/20/84/de2084d780b8c06c31119d239edfc0b9.jpg",
-    "price": 16200,
-    "color": "Brown",
-    "size": 43,                                                     
-    "brand": "Gucci",
-    "section": "Men"
-  },
-  {
-    "name": "Mesh Running Nike Sneakers",
-    "category": "Sport",
-    "img": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2hvZXxlbnwwfHwwfHx8MA%3D%3D",
-    "price": 5800,
-    "color": "Red",
-    "size": 44,                                                     
     "brand": "Nike",
     "section": "Men"
   },
@@ -275,7 +189,8 @@
     "color": "White",
     "size": 41,                                                     
     "brand": "Puma",
-    "section": "Men"
+    "section": "Men",
+    "special": "Best Sellers"
   },
   {
     "name": "Gucci Ivory Leather Rhyton",
@@ -295,7 +210,8 @@
     "color": "White",
     "size": 38,                                                     
     "brand": "Prada",
-    "section": "Women"
+    "section": "Women",
+    "special": "Best Sellers"
   },
   {
     "name": "Nordstorm Gucci Flip-Flops",
@@ -304,17 +220,20 @@
     "color": "Brown",
     "size": 39,                                                     
     "brand": "Gucci",
-    "section": "Women"
+    "section": "Women",
+    "special": "New Arrivals"
   },
   {
     "name": "Bright Nike Air Force One",
     "category": "Casual",
     "img": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHNob2V8ZW58MHx8MHx8fDA%3D",
+    "originalPrice": 7300,
     "price": 5400,
     "color": "White",
     "size": 37,                                                     
     "brand": "Nike",
-    "section": "Women"  
+    "section": "Women",
+    "special": "Sale"
   },
   {
     "name": "Prada Pumps and Ballerinas",
@@ -360,11 +279,13 @@
     "name": "Trainer in Beige and Ebony",
     "category": "Fashion",
     "img": "https://media.gucci.com/style/DarkGray_Center_0_0_490x490/1689179485/746766_20Q20_9745_002_100_0000_Light-Womens-GG-trainer.jpg",
+    "originalPrice": 15000,
     "price": 12600,
     "color": "Brown",
     "size": 35,                                                     
     "brand": "Gucci",
-    "section": "Women"
+    "section": "Women",
+    "special": "Sale"
   },
   {
     "name": "Puma Bootcut Strap-ons",
@@ -414,27 +335,31 @@
     "color": "Blue Black",
     "size": 33,                                                     
     "brand": "Nike",
-    "section": "Kids"
+    "section": "Kids",
+    "special": "New Arrivals"
   },
   {
     "name": "Vans Checker Board Slip On",
     "category": "Casual",
     "img": "https://thenextpair.com.au/cdn/shop/files/vans-classic-slip-on-the-next-pair-1_fdda44e3-7442-48b9-80f9-0d701ce8affe.jpg?v=1688065997",
-    "price": 1300,
+    "price": 3300,
     "color": "White Black",
     "size": 32,                                                     
     "brand": "Vans",
-    "section": "Kids"
+    "section": "Kids",
+    "special": "Best Sellers"
   },
   {
     "name": "Puma Caven Dime Shoes",
     "category": "Casual",
     "img": "https://www.side-step.co.za/media/catalog/product/cache/f8df61b05911d279f59846ba6dcb8724/p/m/pma3543kpb-puma-caven-dime-ps-white-pink-icy-38505211-v1_jpg.jpg",
-    "price": 1850,
+    "originalPrice": 7000,
+    "price": 4850,
     "color": "White Blue",
     "size": 33,                                                     
     "brand": "Puma",
-    "section": "Kids"
+    "section": "Kids",
+    "special": "Sale"
   },
   {
     "name": "Nike Court Borough",
@@ -464,6 +389,7 @@
     "color": "Pink",
     "size": 33,                                                     
     "brand": "Vans",
-    "section": "Kids"
+    "section": "Kids",
+    "special": "New Arrivals"
   }
 ]

@@ -11,27 +11,31 @@ import shoes from '../../../json/shoes.json';
 
 const Intro = () => {
 
-    const newArrivalShoes = shoes.filter(shoe => shoe.section === "New Arrivals");
-    const saleShoes = shoes.filter(shoe => shoe.section === "Sale");
+    const newArrivalShoes = shoes.filter(shoe => shoe.special === "New Arrivals");
+    const saleShoes = shoes.filter(shoe => shoe.special === "Sale");
+    const bestSellerShoes = shoes.filter(shoe => shoe.special === "Best Sellers");
 
 
     const responsive = {
         superLargeDesktop: {
-          // the naming can be any, depends on you.
           breakpoint: { max: 4000, min: 1500 },
           items: 5
         },
         desktop: {
-          breakpoint: { max: 1500, min: 1200 },
+          breakpoint: { max: 1500, min: 1150 },
           items: 4
         },
         tablet: {
-          breakpoint: { max: 1200, min: 960 },
+          breakpoint: { max: 1150, min: 850 },
           items: 3
         },
+        smalltablet: {
+          breakpoint: { max: 850, min: 550 },
+          items: 2
+        },
         mobile: {
-          breakpoint: { max: 500, min: 0 },
-          items: 1.5
+          breakpoint: { max: 550, min: 0 },
+          items: 1
         }
       };
 
@@ -81,7 +85,7 @@ const Intro = () => {
                         <h2>Best Sellers</h2>
                     </div>
                     <Carousel responsive={responsive}>
-                        {bestSellers.map((shoe, index) => (
+                        {bestSellerShoes.map((shoe, index) => (
                             <ShoeCard
                                 key={index}
                                 name={shoe.name}

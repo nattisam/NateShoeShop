@@ -12,6 +12,17 @@
                 flex-direction: row;
                 justify-content: space-between;
                 align-items: center;
+
+                .section-title {
+                    display: flex;
+                    gap: 20px;
+
+                    // h1 {
+                    // font-size: 36px;
+                    // }
+                }
+
+
         }
     }
 }

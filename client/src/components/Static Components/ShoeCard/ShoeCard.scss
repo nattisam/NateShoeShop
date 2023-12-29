@@ -26,7 +26,7 @@ $animation-duration: 0.3s;
         .shoe-container {
             border-radius: 5px;
             overflow: hidden;
-            width: 240px;
+            width: 220px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -66,14 +66,14 @@ $animation-duration: 0.3s;
             }
 
             .inner-container{
-                width: 240px;
+                width: 220px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
         
                 .img-container {
-                    width: 240px;
-                    height: 240px;
+                    width: 220px;
+                    height: 220px;
                     position: relative;
                     overflow: hidden;
                     
@@ -139,7 +139,7 @@ $animation-duration: 0.3s;
 
             
         .add-to-cart{
-            width: 240px;
+            width: 220px;
             height: 40px;
             border: 2px solid red;
             color: red;

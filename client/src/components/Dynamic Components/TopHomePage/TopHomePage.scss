@@ -8,14 +8,12 @@
   background-color: rgb(13, 31, 34);
 
   .outer-header {
-    width: 100%;
     height: 65vh;
     display: flex;
     flex-direction: column;
     display: flex;
 
     .inner-header {
-      width: 100vw;
       margin: 0;
       display: flex;
       flex-direction: row;
@@ -60,7 +58,7 @@
 
     .middle-content {
       position: absolute;
-      width: 100vw;
+      width: 100%;
       display: flex;
       flex-direction: column;
       align-content: center;

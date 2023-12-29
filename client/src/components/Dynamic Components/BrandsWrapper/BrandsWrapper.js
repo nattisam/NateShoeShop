@@ -6,25 +6,28 @@ import shoeConstants from '../../../constants/shoeConstants';
 
 const BrandsWrapper = () => {
 
-    const responsive = {
-        superLargeDesktop: {
-          // the naming can be any, depends on you.
-          breakpoint: { max: 4000, min: 1024 },
-          items: 5
-        },
-        desktop: {
-          breakpoint: { max: 1024, min: 800 },
-          items: 3
-        },
-        tablet: {
-          breakpoint: { max: 800, min: 464 },
-          items: 2
-        },
-        mobile: {
-          breakpoint: { max: 464, min: 0 },
-          items: 1
-        }
-      };
+  const responsive = {
+    superLargeDesktop: {
+      breakpoint: { max: 4000, min: 1500 },
+      items: 5
+    },
+    desktop: {
+      breakpoint: { max: 1500, min: 1150 },
+      items: 4
+    },
+    tablet: {
+      breakpoint: { max: 1150, min: 850 },
+      items: 3
+    },
+    smalltablet: {
+      breakpoint: { max: 850, min: 550 },
+      items: 2
+    },
+    mobile: {
+      breakpoint: { max: 550, min: 0 },
+      items: 1
+    }
+  };
       
     return (
         <div className="brands-wrapper">
