@@ -40,7 +40,7 @@ const CommonTopPage = (props) => {
                     <div className="section-and-pic">
                         <div className="section-title">
                             <h1>{props.name}</h1>
-                            <h1  style={{ color: "rgb(255, 255, 255, 0.8)" }}>Shoes</h1>
+                            <h1  style={{ color: "red" }}>Shoes</h1>
                         </div>
                         <div className="section-shoe">
                             <DraggableImage shoe={props.shoe} width={shoeWidth}/>

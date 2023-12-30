@@ -31,7 +31,7 @@ const TopHomePage = () => {
             <h3>
               Shoe shopping like
             </h3>
-            <h3>
+            <h3 style={{ color: "red" }}>
               never before!
             </h3>
             <p>
@@ -49,10 +49,10 @@ const TopHomePage = () => {
         </div>
         <div className="inner-header">
           <div className="shoe-left">
-          <DraggableImage shoe={shoeLeft} width={screenWidth < 960 ? '150px' : '250px'} />
+          <DraggableImage shoe={shoeLeft} width={screenWidth < 960 ? '150px' : '220px'} />
           </div>
           <div className="shoe-right">
-          <DraggableImage shoe={shoeRight2} width={screenWidth < 960 ? '150px' : '250px'} />
+          <DraggableImage shoe={shoeRight2} width={screenWidth < 960 ? '160px' : '240px'} />
           </div>
         </div>
       </div>
