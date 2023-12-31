@@ -38,10 +38,13 @@ const EndCredits = (props) => {
                 <li>Vans</li>
                 <li>Puma</li>
                 <li>Gucci</li>
-                <li>Clarks</li>
               </ul>
             </div>
         </div>
+      </div>
+      <div className='contact-box'>
+          <textarea placeholder='Write something..'/>
+          <button onClick={() => alert('Email sent successfully!')}>Send</button>
       </div>
       <div className='my-credits'>
         <div>
@@ -49,10 +52,10 @@ const EndCredits = (props) => {
         </div>
         <div className='socials'> 
           <ul>
-            <li><a href='https://github.com/nattisam' target='_blank'><FontAwesomeIcon icon={faGithub} style={{ fontSize: "24px", color: "white" }}/></a></li>
-            <li><a href='https://www.linkedin.com/in/nathan-estifanos-1566a0288/' target='_blank'><FontAwesomeIcon icon={faLinkedin} style={{ fontSize: "24px", color: "white" }}/></a></li>
-            <li><a href='https://instagram.com/nattisam' target='_blank'><FontAwesomeIcon icon={faInstagram} style={{ fontSize: "24px", color: "white" }}/></a></li>
-            <li><a href='https://twitter.com/Nattisam1' target='_blank'><FontAwesomeIcon icon={faTwitter} style={{ fontSize: "24px", color: "white" }}/></a></li> 
+            <li><a href='https://github.com/nattisam' target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faGithub} style={{ fontSize: "24px", color: "white" }}/></a></li>
+            <li><a href='https://www.linkedin.com/in/nathan-estifanos-1566a0288/' target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} style={{ fontSize: "24px", color: "white" }}/></a></li>
+            <li><a href='https://instagram.com/nattisam' target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faInstagram} style={{ fontSize: "24px", color: "white" }}/></a></li>
+            <li><a href='https://twitter.com/Nattisam1' target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faTwitter} style={{ fontSize: "24px", color: "white" }}/></a></li> 
           </ul>
         </div>
       </div>

@@ -85,33 +85,7 @@
         column-gap: 50px;
         margin-top: 90px;
     
-        .primary-btn button {
-          cursor: pointer;
-          padding: 0px 35px;
-          height: 45px;
-          border-radius: 55px;
-          background-color: rgba(0, 0, 0, 0.2);
-          border: 3px solid white;
-          font-size: 16px;
-          color: white; 
-          font-weight: 600;
 
-          &:hover {
-            background-color: white;
-            color: black;
-          }
-        }
-        .secondary-btn button {
-          color: white;
-          background-color: red;
-          border: 3px solid red;
-          
-          &:hover {
-            background-color: rgb(160, 0, 0);
-            border-color: rgb(160, 0, 0);
-            color: white;
-          }
-        }
       }
     }
   }
