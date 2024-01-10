@@ -42,10 +42,10 @@ const EndCredits = (props) => {
             </div>
         </div>
       </div>
-      <div className='contact-box'>
+      {/* <div className='contact-box'>
           <textarea placeholder='Write something..'/>
           <button onClick={() => alert('Email sent successfully!')}>Send</button>
-      </div>
+      </div> */}
       <div className='my-credits'>
         <div>
           <h4>Credits: Nathan Samson</h4>

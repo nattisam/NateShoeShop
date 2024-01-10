@@ -47,7 +47,7 @@ const Navbar = () => {
       const scrollPercentage = (scrollY / windowHeight) * 100;
 
       if (scrollPercentage > 20) {
-        setBackgroundColor('black');
+        setBackgroundColor('rgb(20, 20, 20)');
       } else {
         setBackgroundColor('transparent');
       }

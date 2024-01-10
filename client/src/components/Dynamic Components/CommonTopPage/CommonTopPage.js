@@ -10,11 +10,9 @@ const CommonTopPage = (props) => {
     let shoeWidth;
 
     useEffect(() => {
-        // Update screenWidth when the window is resized
         const handleResize = () => setScreenWidth(window.innerWidth);
         window.addEventListener('resize', handleResize);
     
-        // Cleanup event listener on component unmount
         return () => {
           window.removeEventListener('resize', handleResize);
         };
@@ -22,17 +20,19 @@ const CommonTopPage = (props) => {
 
       switch (props.name) {
         case "Men's":
-            shoeWidth = screenWidth > 960 ? "250px" : "150px";
+            shoeWidth = screenWidth > 960 ? "220px" : "150px";
             break;
         case "Women's":
-            shoeWidth = screenWidth > 960 ? "250px" : "150px";
+            shoeWidth = screenWidth > 960 ? "230px" : "150px";
             break;
         case "Kids'":
-            shoeWidth = screenWidth > 960 ? "250px" : "150px";
+            shoeWidth = screenWidth > 960 ? "200px" : "150px";
             break;
-
+        default: 
+            shoeWidth = screenWidth > 960 ? "220px" : "150px";
+            break;
       }
-
+      
     return(
         <div className='header' style={{ backgroundColor: props.bgColor }}>
             <NavBar />
@@ -40,7 +40,7 @@ const CommonTopPage = (props) => {
                     <div className="section-and-pic">
                         <div className="section-title">
                             <h1>{props.name}</h1>
-                            <h1  style={{ color: "red" }}>Shoes</h1>
+                            <h1  style={{ opacity: 0.8 }}>Shoes</h1>
                         </div>
                         <div className="section-shoe">
                             <DraggableImage shoe={props.shoe} width={shoeWidth}/>

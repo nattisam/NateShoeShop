@@ -50,40 +50,40 @@
     }
   }
 
-  .contact-box {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    gap: 15px;
-    margin-bottom: 40px;
+  // .contact-box {
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: flex-end;
+  //   gap: 15px;
+  //   margin-bottom: 40px;
 
-    textarea {
-      all: unset;
-      padding: 12px;
-      height: 70px;
-      width: 300px;
-      text-align: start;
-      background-color: transparent;
-      border: 2px solid white;
-      border-radius: 20px; 
-    }
+  //   textarea {
+  //     all: unset;
+  //     padding: 12px;
+  //     height: 70px;
+  //     width: 300px;
+  //     text-align: start;
+  //     background-color: transparent;
+  //     border: 2px solid white;
+  //     border-radius: 20px; 
+  //   }
 
-    button {
-      cursor: pointer;
-      padding: 0px 35px;
-      height: 45px;
-      border-radius: 55px;
-      font-weight: 600;
-      color: white;
-      background-color: red;
+  //   button {
+  //     cursor: pointer;
+  //     padding: 0px 35px;
+  //     height: 45px;
+  //     border-radius: 55px;
+  //     font-weight: 600;
+  //     color: white;
+  //     background-color: red;
       
-      &:hover {
-        background-color: rgb(160, 0, 0);
-        border-color: rgb(160, 0, 0);
-        color: white;
-      }
-    }
-  }
+  //     &:hover {
+  //       background-color: rgb(160, 0, 0);
+  //       border-color: rgb(160, 0, 0);
+  //       color: white;
+  //     }
+  //   }
+  // }
 
   .my-credits {
     height: 70px;
