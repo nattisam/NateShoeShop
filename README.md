@@ -4,11 +4,11 @@ Welcome to the Nate Shoe Shop, a front-end website demonstration of an online sh
 **Demo**
 Check out the live demo of the Shoe Shop Website: Shoe Shop Demo https://nateshoeshop.vercel.app/
 
-**Features**
-Product Filtering: Easily filter products by size, price, color, and brand.
-Category Sections: Explore the Men, Women, Kids, and Brands sections.
-Cart and Wishlist: Add products to your cart or wishlist using React Context.
-Responsive Design: The website is fully responsive, ensuring a seamless experience across devices.
+**Features**  
+Product Filtering: Easily filter products by size, price, color, and brand.  
+Category Sections: Explore the Men, Women, Kids, and Brands sections.  
+Cart and Wishlist: Add products to your cart or wishlist using React Context.  
+Responsive Design: The website is fully responsive, ensuring a seamless experience across devices.  
 
 **Installation**
 1. Clone the repository: https://github.com/nattisam/E-Commerce.git
@@ -19,11 +19,11 @@ Responsive Design: The website is fully responsive, ensuring a seamless experien
 1. Start the development server: npm start
 2. Open your browser and visit http://localhost:3000
 
-**Technologies Used**
-**React**: Front-end library for building user interfaces.
-**Sass**: CSS preprocessor for styling.
-**React Context**: State management for cart and wishlist functionality.
-**Vercel**: Deployment platform for hosting the website.
+**Technologies Used**  
+**React**: Front-end library for building user interfaces.  
+**Sass**: CSS preprocessor for styling.  
+**React Context**: State management for cart and wishlist functionality.  
+**Vercel**: Deployment platform for hosting the website.  
 
 **Deployment**
 Nate Shoe Shop Website is deployed on Vercel. Visit [Nate Shoe Shop](https://nateshoeshop.vercel.app/) Demo to explore the live site.
