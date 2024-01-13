@@ -2,7 +2,7 @@
 Welcome to the Nate Shoe Shop, a front-end website demonstration of an online shoe store built using React and Sass. This website allows users to browse a variety of shoes, filter products based on size, price, color, and brand, and add items to their cart or wishlist. The project also includes separate sections for Men, Women, Kids, and various brands.
 
 **Demo**
-Check out the live demo of the Shoe Shop Website: Shoe Shop Demo "https://nateshoeshop.vercel.app/"
+Check out the live demo of the Shoe Shop Website: Shoe Shop Demo https://nateshoeshop.vercel.app/
 
 **Features**
 Product Filtering: Easily filter products by size, price, color, and brand.
