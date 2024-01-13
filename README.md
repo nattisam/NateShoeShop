@@ -1,7 +1,7 @@
 # Nate Shoe Shop
 Welcome to the Nate Shoe Shop, a front-end website demonstration of an online shoe store built using React and Sass. This website allows users to browse a variety of shoes, filter products based on size, price, color, and brand, and add items to their cart or wishlist. The project also includes separate sections for Men, Women, Kids, and various brands.
 
-**Demo**
+**Demo**  
 Check out the live demo of the Shoe Shop Website: Shoe Shop Demo https://nateshoeshop.vercel.app/
 
 **Features**  
@@ -20,12 +20,12 @@ Responsive Design: The website is fully responsive, ensuring a seamless experien
 2. Open your browser and visit http://localhost:3000
 
 **Technologies Used**  
-**React**: Front-end library for building user interfaces.  
-**Sass**: CSS preprocessor for styling.  
-**React Context**: State management for cart and wishlist functionality.  
-**Vercel**: Deployment platform for hosting the website.  
+React: Front-end library for building user interfaces.  
+Sass: CSS preprocessor for styling.  
+React Context: State management for cart and wishlist functionality.  
+Vercel: Deployment platform for hosting the website.  
 
-**Deployment**
+**Deployment**  
 Nate Shoe Shop Website is deployed on Vercel. Visit [Nate Shoe Shop](https://nateshoeshop.vercel.app/) Demo to explore the live site.
 
 ## Business Inquiry
